@@ -4,3 +4,6 @@ opencv_python==4.7.0.68
 Pillow==9.4.0
 streamlit==1.17.0
 tensorflow==2.11.0
+ipython==8.8.0
+Cython==0.29.33
+opencv-contrib-python==4.7.0.68
