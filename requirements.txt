@@ -7,3 +7,5 @@ tensorflow==2.11.0
 ipython==8.8.0
 Cython==0.29.33
 opencv-contrib-python==4.7.0.68
+tensorflow==2.11.0
+keras==2.11.0
