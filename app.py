@@ -164,6 +164,7 @@ elif app_mode == 'Run on Video':
     st.set_option('deprecation.showfileUploaderEncoding', False)
 
     use_webcame = st.sidebar.button('Use WebCame')
+    close_webcame = st.sidebar.button('Close Webcame')
     record = st.sidebar.checkbox("Record Video")
 
     if record:
@@ -289,6 +290,11 @@ elif app_mode == 'Run on Video':
 
             if record:
                 out.write(frame)
+
+            if close_webcame:
+                vid.release()
+                cv2.destroyAllWindows()
+                break
 
             kpi1_text1.write(
                 f"<h1 style='text-align: center; color:red;'>{int(fps)}</h1>", unsafe_allow_html=True)
