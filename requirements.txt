@@ -7,4 +7,4 @@ tensorflow==2.11.0
 mdurl==0.1.2
 opencv-contrib-python==4.7.0.68
 opencv-python-headless==4.7.0.68
-ligbil
+ligbil1
